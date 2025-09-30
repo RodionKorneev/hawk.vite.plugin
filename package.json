@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/codex-team/hawk.vite.plugin.git",
   "author": "CodeX <team@codex.so>",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "type": "module",
   "types": "src/index.d.ts",
   "files": [
