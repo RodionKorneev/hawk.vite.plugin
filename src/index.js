@@ -148,15 +148,15 @@ function getSourceMapsFileNames(bundlesInfo) {
   return Object.values(bundlesInfo)
     .flatMap(item => {
       if (item.type === 'asset' && item.fileName.endsWith('.map')) {
-        return [item.fileName]
+        return [item.fileName];
       }
 
       if (item.type === 'chunk' && item.map) {
-        return [item.fileName + '.map']
+        return [item.fileName + '.map'];
       }
 
-      return []
-    })
+      return [];
+    });
 }
 
 /**
